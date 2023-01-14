@@ -387,8 +387,8 @@ font-family: 'Roboto', sans-serif; */
     }
 
     .brand-content {
-        display: grid;
-        grid-template-columns: repeat(4, [col-start] 1fr [col-end]);
+        flex-wrap: wrap;
+        gap: 18px;
     }
 
     .collection-content {
